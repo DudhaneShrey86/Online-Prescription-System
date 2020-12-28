@@ -15,6 +15,10 @@ class CreatePrescriptionsTable extends Migration
     {
         Schema::create('prescriptions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('consultation_id');
+            $table->string('care_taken', 500);
+            $table->string('medicines');
+            $table->string('prescription_link')->nullable();
             $table->timestamps();
         });
     }

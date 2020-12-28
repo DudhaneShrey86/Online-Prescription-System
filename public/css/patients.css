@@ -1,0 +1,79 @@
+body{
+  background: #eceff1;
+}
+#parentcontainer{
+  margin: 0 10px !important;
+  width: auto;
+}
+#username{
+  font-size: 1.1em;
+  color: #607d8b;
+}
+#user-dropdown>a{
+  padding-left: 20px;
+  border-left: 1px solid #607d8b;
+  border-right: 1px solid #607d8b;
+}
+#user-dropdown>a>*{
+  vertical-align: middle;
+}
+#thumbnail{
+  width: 30px;
+  margin-right: 10px;
+}
+.dropdown-content li>a{
+  color: #546e7a;
+}
+.dropdown-content li>a:hover{
+  color: #2196f3;
+}
+
+h5{
+  margin: 15px 0;
+}
+.customrow{
+  margin: 15px 0;
+}
+.customrow > *{
+  margin-bottom: 5px !important;
+}
+
+#flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+#big-div, #small-div{
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.longbuttons{
+  min-width: 100px;
+}
+@media screen and (min-width: 600px){
+
+}
+@media screen and (min-width: 992px){
+  #parentcontainer{
+    margin: 0 auto !important;
+
+  }
+  #flex-container{
+    flex-direction: row;
+  }
+  #big-div{
+    flex: 70%;
+    max-width: 70%;
+  }
+  #small-div{
+    flex: 30%;
+    max-width: 30%;
+  }
+  .card-content{
+    padding: 24px !important;
+  }
+}

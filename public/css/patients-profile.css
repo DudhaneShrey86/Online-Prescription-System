@@ -1,0 +1,108 @@
+.card-content{
+  padding: 15px !important;
+}
+
+#imagediv{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#imagediv form{
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  font-size: 1em;
+}
+#profile_link{
+  position: absolute;
+  z-index: -1;
+  display: none;
+
+}
+#imagediv img{
+  z-index: 2;
+  padding: 15px;
+  max-width: 220px;
+  background: white;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0px -2px 1px #eeeeee;
+}
+#contentdiv{
+  z-index: 1;
+  margin-top: -70px;
+  padding-top: 90px;
+}
+#big-div, #small-div{
+  text-align: left;
+}
+.vertical-align *{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.custominputs{
+  margin: 10px 0;
+  transition: border-color 0.2s ease;
+  resize: none;
+  border: 0;
+}
+.custominputs.active{
+  border: 1px solid #efefef;
+  padding: 10px;
+  resize: vertical;
+}
+.custominputs:focus{
+  outline: none;
+  border-color: #2196f3;
+}
+#big-div .row .col, #small-div .row .col{
+  padding: 7px 10px 7px 0px;
+}
+#illnesses .row .col{
+  padding: 0px;
+  padding-bottom: 5px;
+}
+#savediv, #editbutton{
+  display: none;
+}
+#savediv.active, #editbutton.active{
+  display: inline-block;
+}
+.customcard{
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  margin-bottom: 20px;
+}
+.customcard .content{
+  font-size: 0.95em;
+}
+.customcard .content p{
+  margin-bottom: 4px;
+}
+.borderbottom{
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid #efefef;
+}
+.fullbuttons{
+  width: 100%;
+  margin-top: 15px;
+}
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 992px) {
+  #big-div{
+    flex: 70%;
+    max-width: 70%;
+  }
+  #blank-div{
+    flex: 5%;
+    max-width: 5%;
+  }
+  #small-div{
+    flex: 25%;
+    max-width: 25%;
+  }
+}

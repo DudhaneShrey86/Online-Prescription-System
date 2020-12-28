@@ -1,0 +1,98 @@
+.fileinputs{
+  margin: 10px 0px;
+  text-align: left;
+}
+.fileinputs input{
+  margin-bottom: 2px;
+}
+.fileinputs label{
+  font-size: 1em !important;
+}
+.custommsgs{
+  padding: 15px !important;
+  margin: 10px 0;
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* login form styles */
+#login-container{
+  display: flex;
+  justify-content: center;
+}
+#login-form{
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+#remember-container{
+  text-align: left;
+}
+
+.underlined{
+  color: #42a5f5;
+}
+.underlined:hover{
+  text-decoration: underline;
+}
+
+#other-action{
+  font-size: 0.9em;
+}
+.marginbigtop{
+  margin-top: 30px;
+}
+.marginbottom{
+  margin-bottom: 15px;
+}
+.input-field{
+  text-align: left;
+}
+
+#center-input-field{
+  text-align: center;
+}
+
+.centeralign{
+  display: flex;
+  align-items: center;
+}
+.relativediv{
+  position: relative;
+}
+.absolutebuttons{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.divider{
+  margin: 20px 0;
+}
+.card .card-content{
+  padding: 15px;
+}
+.marginbothbig{
+  margin: 20px 0;
+}
+@media screen and (min-width: 600px) {
+  #login-form{
+    margin-top: 40px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width : 768px){
+  .card .card-content{
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  #login-form{
+    width: 450px;
+  }
+}

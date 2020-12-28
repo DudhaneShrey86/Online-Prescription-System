@@ -46,6 +46,16 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+
+        'doctor' => [
+            'driver' => 'session',
+            'provider' => 'doctors',
+        ],
+
+        'patient' => [
+            'driver' => 'session',
+            'provider' => 'patients',
+        ],
     ],
 
     /*
@@ -69,6 +79,16 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
+        ],
+
+        'doctors' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Doctor::class,
+        ],
+
+        'patients' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Patient::class,
         ],
 
         // 'users' => [
@@ -98,6 +118,19 @@ return [
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
+        ],
+        'doctors' => [
+            'provider' => 'doctors',
+            'table' => 'password_resets',
+            'expire' => 15,
+            'throttle' => 15,
+        ],
+
+        'patients' => [
+            'provider' => 'patients',
+            'table' => 'password_resets',
+            'expire' => 15,
+            'throttle' => 15,
         ],
     ],
 

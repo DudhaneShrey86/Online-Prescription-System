@@ -1,0 +1,98 @@
+#searchdiv{
+  margin: 0.5em 0;
+}
+#search{
+  margin: 0;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+#searchdiv .col{
+  margin: 0;
+}
+#filterdiv{
+  padding-bottom: 70px !important;
+  min-height: 80vh;
+  position: relative;
+  display: none;
+}
+#buttondiv{
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+#buttondiv button{
+  width: 100%;
+}
+.divider{
+  margin: 20px 0px 30px 0px;
+}
+#see_filters_div{
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px -2px 3px #e0e0e0;
+}
+#see_filters{
+  display: block;
+  padding: 10px;
+}
+.customitem{
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.1s ease;
+  z-index: 0;
+}
+.customitem .row{
+  margin-bottom: 5px;
+}
+.customitem p{
+  margin: 0px;
+  margin-bottom: 7px;
+}
+.vertical-align *{
+  vertical-align: middle;
+}
+.itema{
+  color: inherit;
+  display: block;
+}
+.customitem:hover{
+  z-index: 1;
+  box-shadow: 0px 2px 10px #9e9e9e;
+}
+.imagediv{
+  padding: 10px;
+  max-width: 65px;
+}
+.contentdiv{
+  flex: 1 1 auto;
+}
+.imagediv img{
+  width: 100%;
+  border-radius: 10px;
+}
+#noresult{
+  display: none;
+}
+h6{
+  margin-top: 0px;
+}
+@media only screen and (min-width : 992px){
+  #filterdiv{
+    display: block;
+  }
+  #see_filters_div{
+    display: none;
+  }
+  .imagediv{
+    padding: 15px;
+    max-width: 90px;
+  }
+}

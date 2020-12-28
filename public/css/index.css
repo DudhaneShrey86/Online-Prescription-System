@@ -1,0 +1,77 @@
+.divider{
+  margin: 20px 0;
+}
+.card .card-content{
+  padding: 15px;
+}
+.small-text{
+  font-size: 0.9em;
+}
+.relativediv{
+  position: relative;
+}
+.absolutebuttons{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nomarginbottom{
+  margin-bottom: 0px !important;
+}
+.marginright{
+  margin-right: 20px;
+}
+.margintop{
+  margin-top: 20px !important;
+}
+.rightonlarge{
+  text-align: left;
+}
+.marginbottom{
+  margin-bottom: 10px;
+}
+.smallmarginbottom{
+  margin-bottom: 5px;
+}
+.custommsgs{
+  padding: 15px !important;
+  margin: 0;
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.custommsgs *{
+  vertical-align: middle;
+  margin:0 5px;
+}
+.underlined{
+  color: #42a5f5;
+}
+.underlined:hover{
+  text-decoration: underline;
+}
+.zeroborder{
+  border: 0;
+}
+.zeropadding{
+  padding: 0 !important;
+}
+.smallpadding{
+  padding: 15px;
+}
+
+@media only screen and (min-width : 768px){
+  .card .card-content{
+    padding: 24px;
+  }
+  .smallpadding{
+    padding: 25px;
+  }
+}
+@media only screen and (min-width : 992px){
+  .rightonlarge{
+    text-align: right;
+  }
+}

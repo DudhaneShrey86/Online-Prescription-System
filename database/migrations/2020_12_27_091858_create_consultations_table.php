@@ -15,6 +15,14 @@ class CreateConsultationsTable extends Migration
     {
         Schema::create('consultations', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('doctor_id');
+            $table->foreignId('patient_id');
+            $table->string('illness_title');
+            $table->string('illness_description');
+            $table->string('surgery_details');
+            $table->string('time_span');
+            $table->string('transaction_id');
+            $table->integer('prescription_given')->default(0);
             $table->timestamps();
         });
     }
