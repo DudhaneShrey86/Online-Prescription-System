@@ -56,8 +56,8 @@ class PrescriptionController extends Controller
         'medicines' => 'required',
       ]);
       $prescription = Prescription::find(request()->prescription_id);
-      // $pdf = PDF::loadView('prescription-pdf', ['consultation' => $consultation, 'prescription' => $prescription]);
-      $pdf = PDF::loadView('prescription-pdf');
+      $consultation = $prescription->consultation()->first();
+      $pdf = PDF::loadView('prescription-pdf', ['consultation' => $consultation, 'prescription' => $prescription]);
       $path = '/Documents/Prescriptions/'.$prescription->id.'_prescription.pdf';
       $pdf->save(public_path().$path);
       $data['prescription_link'] = $path;
