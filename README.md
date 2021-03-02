@@ -27,7 +27,7 @@ Laravel, MySQL, JQuery, Materialize CSS
 ## Some Images of the interface
 
 #### Patient's Side
-![Patient's Login](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/patient_login.PNG?raw=true)
+![Patient's Login](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/patient_login.PNG)
 - **Patient's Login Page**
 
 ![Search Doctors](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/search_doctors.PNG?raw=true)
