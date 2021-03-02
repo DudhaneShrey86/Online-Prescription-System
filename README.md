@@ -27,28 +27,28 @@ Laravel, MySQL, JQuery, Materialize CSS
 ## Some Images of the interface
 
 #### Patient's Side
-![Patient's Login](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/patient_login.PNG)
 - **Patient's Login Page**
+![Patient's Login](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/patient_login.PNG)
 
-![Search Doctors](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/search_doctors.PNG)
 - **Search Doctors**
+![Search Doctors](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/search_doctors.PNG)
 
-![Illness Form](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/illness_form.PNG)
 - **Illness Details**
+![Illness Form](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/illness_form.PNG)
 
-![Illness Form 2](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/illness_form2.PNG)
 - **Family Illness History Details**
+![Illness Form 2](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/illness_form_2.PNG)
 
-![Payment Form](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/payment.PNG)
 - **Payment Page [The payment is to be done and its transaction id is to be entered]**
+![Payment Form](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/payment.PNG)
 
-![My Prescriptions](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/my_prescriptions.PNG)
 - **My Prescriptions**
+![My Prescriptions](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/my_prescriptions.PNG)
 
-![Profile Page](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/profile.PNG)
 - **Patient's Profile Page**
+![Profile Page](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/profile.PNG)
+
 
 #### Doctor's Side
-
-![Prescription Details](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/prescription.PNG)
 - **Doctor writes a prescriptions for the illness**
+![Prescription Details](https://raw.githubusercontent.com/DudhaneShrey86/Online-Prescription-System/main/public/images/prescription.PNG)
