@@ -27,28 +27,28 @@ Laravel, MySQL, JQuery, Materialize CSS
 ## Some Images of the interface
 
 #### Patient's Side
-![Patient's Login](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/patient_login.PNG)
+![Patient's Login](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/patient_login.PNG?raw=true)
 - **Patient's Login Page**
 
-![Search Doctors](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/search_doctors.PNG)
+![Search Doctors](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/search_doctors.PNG?raw=true)
 - **Search Doctors**
 
-![Illness Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form.PNG)
+![Illness Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form.PNG?raw=true)
 - **Illness Details**
 
-![Illness Form 2](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form_2.PNG)
+![Illness Form 2](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form_2.PNG?raw=true)
 - **Family Illness History Details**
 
-![Payment Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/payment.PNG)
+![Payment Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/payment.PNG?raw=true)
 - **Payment Page [The payment is to be done and its transaction id is to be entered]**
 
-![My Prescriptions](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/my_prescriptions.PNG)
+![My Prescriptions](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/my_prescriptions.PNG?raw=true)
 - **My Prescriptions**
 
-![Profile Page](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/profile.PNG)
+![Profile Page](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/profile.PNG?raw=true)
 - **Patient's Profile Page**
 
 #### Doctor's Side
 
-![Prescription Details](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/prescription.PNG)
+![Prescription Details](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/prescription.PNG?raw=true)
 - **Doctor writes a prescriptions for the illness**
