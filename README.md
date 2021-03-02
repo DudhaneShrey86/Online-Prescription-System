@@ -23,3 +23,32 @@ Laravel, MySQL, JQuery, Materialize CSS
     <li>On the doctor's side, the doctor has to write prescriptions for the patients, viewing his illness details.</li>
     <li>He can edit or delete those prescriptions.</li>
 </ul>
+
+## Some Images of the interface
+
+#### Patient's Side
+![Patient's Login](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/patient_login.PNG)
+- **Patient's Login Page**
+
+![Search Doctors](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/search_doctors.PNG)
+- **Search Doctors**
+
+![Illness Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form.PNG)
+- **Illness Details**
+
+![Illness Form 2](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/illness_form_2.PNG)
+- **Family Illness History Details**
+
+![Payment Form](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/payment.PNG)
+- **Payment Page [The payment is to be done and its transaction id is to be entered]**
+
+![My Prescriptions](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/my_prescriptions.PNG)
+- **My Prescriptions**
+
+![Profile Page](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/profile.PNG)
+- **Patient's Profile Page**
+
+#### Doctor's Side
+
+![Prescription Details](https://github.com/DudhaneShrey86/Online-Prescription-System/tree/main/public/images/prescription.PNG)
+- **Doctor writes a prescriptions for the illness**
